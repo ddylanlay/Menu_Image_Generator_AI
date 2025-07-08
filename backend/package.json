@@ -1,0 +1,25 @@
+{
+  "name": "menu-image-generator-backend",
+  "version": "1.0.0",
+  "description": "Backend for Menu Image Generator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "framer-motion": "^12.23.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.20.1",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "type": "module"
+}
