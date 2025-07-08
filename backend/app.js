@@ -5,7 +5,6 @@ import express from 'express';
 import cors from 'cors';
 import menuRoutes from './routes/menuRoutes.js';
 
-console.log('OPENAI_API_KEY:', process.env.OPENAI_API_KEY);
 
 const app = express();
 app.use(cors());
